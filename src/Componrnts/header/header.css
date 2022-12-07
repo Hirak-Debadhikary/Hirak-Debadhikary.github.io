@@ -1,0 +1,49 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+/* ================= CTA ===================== */
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+/* ================= HEADER SOCIALS ========== */
+
+/* ================= ME ================== */
+.me {
+  background-color: rgb(208, 241, 132);
+
+  width: 22rem;
+  height: 30rem;
+  margin: auto;
+  margin-top: 4rem;
+  border-radius: 10rem 10rem 0rem 0rem;
+  overflow: hidden;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+/* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
+@media screen and (max-width: 600px) {
+  header {
+    height: 105vh;
+
+  }
+}

@@ -1,0 +1,22 @@
+.calender__item{
+    display: flex;
+    margin-bottom: 5rem;
+
+    background:rgb(61, 61, 102);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    /* color: black; */
+}
+.calender__item:hover{
+    background: transparent;
+    border: 1px solid rgb(17, 255, 0);
+    /* color: white; */
+}
+.calender__item-image{
+    align-items: center;
+    margin: auto;
+}
+
+
