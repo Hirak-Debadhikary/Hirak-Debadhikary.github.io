@@ -1,15 +1,29 @@
-import { Component } from "react";
-import { SiLinkedin } from "react-icons/si";
-import { BsGithub } from "react-icons/bs";
-import { MdOutlineEmail } from "react-icons/md";
+
+import React, { useState, useEffect } from "react";
 import "./mnav.css";
-class Mnav extends Component {
-  render() {
-    return (
-      <footer>
-        <a href="#" className="footer__logo">
-          Hirak
-        </a>
+import {GiHamburgerMenu} from "react-icons/gi"
+const Mnav = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const toggleNav = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
+  useEffect(() => {
+    const changeWidth = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", changeWidth);
+  }, []);
+
+  return (
+    <footer>
+      <a href="#" className="footer__logo">
+        Hirak
+      </a>
+      {(toggleMenu || screenWidth > 500) && (
         <ul className="permalinks">
           <li>
             <a href="#">Home</a>
@@ -35,32 +49,14 @@ class Mnav extends Component {
             </a>
           </li>
         </ul>
-        <div className="footer__social">
-          <a
-            href="https://www.linkedin.com/in/hirak-debadhikary-374b9522b/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <SiLinkedin />
-          </a>
-          <a
-            href="https://github.com/Hirak-Debadhikary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsGithub />
-          </a>
-          <a
-            href="mailto:debadhikaryhirak@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <MdOutlineEmail />
-          </a>
-        </div>
-      </footer>
-    );
-  }
-}
+      )}
+
+    
+      <button onClick={toggleNav} className="btnnav">
+      <GiHamburgerMenu/>
+      </button>
+    </footer>
+  );
+};
 
 export default Mnav;
