@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64456f6b.css",
-    "main.js": "/static/js/main.a014adc1.js",
+    "main.css": "/static/css/main.a88b3d7f.css",
+    "main.js": "/static/js/main.28e6b7e4.js",
     "static/js/787.8d4efb73.chunk.js": "/static/js/787.8d4efb73.chunk.js",
     "static/media/IMG1.png": "/static/media/IMG1.0c6aa772828c8a095628.png",
     "static/media/IMG2.png": "/static/media/IMG2.90a2a4ea1d80994d2c4d.png",
@@ -10,12 +10,12 @@
     "static/media/IMG3.png": "/static/media/IMG3.963105df173f25382cf3.png",
     "static/media/Hirak-Debadhikary-Resume.pdf": "/static/media/Hirak-Debadhikary-Resume.414cfd839e0effee1949.pdf",
     "index.html": "/index.html",
-    "main.64456f6b.css.map": "/static/css/main.64456f6b.css.map",
-    "main.a014adc1.js.map": "/static/js/main.a014adc1.js.map",
+    "main.a88b3d7f.css.map": "/static/css/main.a88b3d7f.css.map",
+    "main.28e6b7e4.js.map": "/static/js/main.28e6b7e4.js.map",
     "787.8d4efb73.chunk.js.map": "/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64456f6b.css",
-    "static/js/main.a014adc1.js"
+    "static/css/main.a88b3d7f.css",
+    "static/js/main.28e6b7e4.js"
   ]
 }
