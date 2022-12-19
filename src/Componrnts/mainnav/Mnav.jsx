@@ -1,7 +1,7 @@
-
 import React, { useState, useEffect } from "react";
 import "./mnav.css";
-import {GiHamburgerMenu} from "react-icons/gi"
+import { GiHamburgerMenu } from "react-icons/gi";
+import CV from "../assets/Hirak-Debadhikary-Resume.pdf";
 const Mnav = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -44,16 +44,25 @@ const Mnav = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1YdZ1weCRYntM5kvUox96hO1Q6-bpeevm/view?usp=sharing">
+            <div
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1YdZ1weCRYntM5kvUox96hO1Q6-bpeevm/view?usp=sharing",
+                  "_blank"
+                );
+              }}
+            >
+
+              <a  href={CV} download>
               Resume
-            </a>
+              </a>
+            </div>
           </li>
         </ul>
       )}
 
-    
       <button onClick={toggleNav} className="btnnav">
-      <GiHamburgerMenu/>
+        <GiHamburgerMenu />
       </button>
     </footer>
   );
