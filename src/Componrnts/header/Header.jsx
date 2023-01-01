@@ -12,7 +12,7 @@ class Header extends Component {
         <div className="container header__container">
           <h4>Hello Everyone I'm</h4>
           <h1>Hirak Debadhikary</h1>
-          <div className="text-light">Fullstack Web Developer</div>
+          <div className="text-light">Full Stack Web Developer</div>
           <CTA />
           <div className="footer__social">
             <a

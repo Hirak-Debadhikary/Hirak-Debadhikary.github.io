@@ -28,7 +28,7 @@ class Skills extends Component {
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>Javascript</h4>
+                  <h4>JavaScript</h4>
                   <small className="text-light"></small>
                 </div>
               </article>
@@ -49,7 +49,7 @@ class Skills extends Component {
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>React</h4>
+                  <h4>React.js</h4>
                   <small className="text-light"></small>
                 </div>
               </article>
@@ -57,6 +57,13 @@ class Skills extends Component {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>Chakra-Ui</h4>
+                  <small className="text-light"></small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" />
+                <div>
+                  <h4>VS Code</h4>
                   <small className="text-light"></small>
                 </div>
               </article>
@@ -68,14 +75,14 @@ class Skills extends Component {
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>NodeJs</h4>
+                  <h4>Node.Js</h4>
                   <small className="text-light"></small>
                 </div>
               </article>
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>Express</h4>
+                  <h4>Express.js</h4>
                   <small className="text-light"></small>
                 </div>
               </article>
