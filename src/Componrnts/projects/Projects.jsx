@@ -15,9 +15,9 @@ const data = [
       "Tech Stack : React.js | Chakra-Ui | Redux | Node.js | Express.js | MongoDB",
     work: "A collaborative project, built in 5 days by a team of 5 members.",
     github: "https://github.com/Hirak-Debadhikary/sloppy-impulse-7268",
-    demo: "https://wrike.onrender.com/",
+    demo: "https://client-beta-pied.vercel.app/",
   },
-  
+
   {
     id: 2,
     image: IMG2,
@@ -60,7 +60,6 @@ const data = [
     github: "https://github.com/Hirak-Debadhikary/Monster.com-Clone",
     demo: "https://monster-clone-hirak-debadhikary.vercel.app/",
   },
-  
 ];
 class Projects extends Component {
   render() {

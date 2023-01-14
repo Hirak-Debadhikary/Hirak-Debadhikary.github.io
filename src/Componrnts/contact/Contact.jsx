@@ -16,25 +16,47 @@ class Contact extends Component {
         <div className="contact__options">
           <div className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-
-            <a href="mailto:debadhikaryhirak@gmail.com">Send a message</a>
+            <h4>
+              {" "}
+              <a
+                href="mailto:debadhikaryhirak@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Email
+              </a>
+            </h4>
           </div>
 
           <div className="contact__option">
             <AiFillLinkedin className="contact__option-icon" />
-            <h4>Linkedin</h4>
+            <h4>
+              {" "}
+              <a
+                href="https://www.linkedin.com/in/hirak-debadhikary-374b9522b/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Linkedin
+              </a>
+            </h4>
+            {/* <h4><a href=""></a>Linkedin</h4> */}
             {/* <h5>Dummy Hungry</h5> */}
-            <a href="https://www.linkedin.com/in/hirak-debadhikary-374b9522b/">
-              Send a message
-            </a>
           </div>
 
           <div className="contact__option">
             <BsGithub className="contact__option-icon" />
-            <h4>GitHub</h4>
+            <h4>
+              {" "}
+              <a
+                href="https://github.com/Hirak-Debadhikary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </h4>
             {/* <h5>Dummy Hungry</h5> */}
-            <a href="https://github.com/Hirak-Debadhikary">Send a message</a>
           </div>
 
           <div className="contact__option">
