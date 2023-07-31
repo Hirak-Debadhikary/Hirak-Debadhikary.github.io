@@ -1,0 +1,16 @@
+.react-activity-calendar {
+  margin: auto;
+}
+.calender__item-image {
+  border: 1px solid rgb(26, 255, 0);
+  margin: auto;
+  width: 80%;
+  padding: 1rem;
+  color: white;
+  background-color: #3d3d66;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.calender__item-image:hover {
+  background-color: rgb(31, 31, 56);
+}

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-/* @import url("./imagesVar.css"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* @import url("./imagesVar.css"); *
 * {
   margin: 0;
   padding: 0;
@@ -21,9 +21,7 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -35,7 +33,7 @@ body {
   background-image: var(--bg-texture);
 }
 
-/* ===================== GENERAL STYLES ================== */
+/* ===================== GENERAL STYLES ================== *
 
 .container {
   width: var(--container-width-lg);
@@ -74,49 +72,10 @@ a {
 a:hover {
   color: var(--color-white);
 }
-.btn {
-  width: max-content;
-  display: inline-block;
-  color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  border: 1px solid var(--color-primary);
-  transition: var(--transition);
+ */
+html {
+  scroll-behavior: smooth;
 }
-.btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
-  border-color: transparent;
-}
-.btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
-}
-img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
-
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
-
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  section {
-    margin-top: 6rem;
-  }
-}
-
-/* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  section > h2 {
-    margin-bottom: 2rem;
-  }
+:root {
+  --transition: all 400ms ease;
 }

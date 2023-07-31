@@ -1,0 +1,123 @@
+/* #contact-github {
+  background-color: rgb(31, 31, 56);
+  padding: 50px 0;
+  text-align: center;
+  height: 100vh;
+}
+#contact-github h5 {
+  color: #dad4d4;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 1rem;
+}
+
+#contact-github h2 {
+  color: #41e873;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.container {
+  /* border: 1px solid red; *
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding: 2rem;
+}
+.statistics__item {
+  background: rgb(61, 61, 102);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.statistics__item:hover {
+  background: transparent;
+  border-color: green;
+}
+.statistics__item-image {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.statistics__item-image img {
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  #contact-github {
+    height: auto;
+  }
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .statistics__item-image img {
+    height: 150px;
+  }
+} */
+
+#contact-github {
+  background-color: rgb(31, 31, 56);
+  padding: 50px 0;
+  text-align: center;
+}
+
+#contact-github h5 {
+  color: #dad4d4;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 1rem;
+}
+
+#contact-github h2 {
+  color: #41e873;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.statistics__container {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  gap: 1.5rem;
+}
+.statistics__item-image {
+  border: 1px solid white;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #3d3d66;
+  border-radius: 5px;
+}
+.statistics__item-image > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.statistics__item-image:hover {
+  background: rgb(31, 31, 56);
+}
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
+
+@media screen and (max-width: 1024px) {
+  .statistics__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+/* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
+@media screen and (max-width: 600px) {
+  .statistics__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

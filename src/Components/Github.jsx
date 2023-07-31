@@ -1,7 +1,6 @@
-import { Component } from "react";
-
-import Calender from "../calender/Calender";
-import "./statistics.css";
+import React from "react";
+import Calender from "./Calender";
+import "./github.css"
 
 const data = [
   {
@@ -21,11 +20,11 @@ const data = [
   },
 ];
 
-class Statistics extends Component {
-  render() {
-    return (
-      <section id="github">
-        <h5>GitHub</h5>
+const Github = () => {
+  return (
+    <div>
+      <section id="contact-github">
+        <h5>My GitHub</h5>
         <h2>Statistics</h2>
         <Calender />
         <div className="container statistics__container">
@@ -40,8 +39,8 @@ class Statistics extends Component {
           })}
         </div>
       </section>
-    );
-  }
-}
+    </div>
+  );
+};
 
-export default Statistics;
+export default Github;

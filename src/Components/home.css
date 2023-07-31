@@ -1,0 +1,126 @@
+#home {
+  padding: 20px 0;
+  text-align: center;
+  background: rgb(31, 31, 56);
+  height: 105vh;
+}
+#home,
+h3 {
+  color: #dad4d4;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /* margin-bottom: 5px; */
+  /* margin-top: 1rem; */
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  color: white;
+}
+
+#user-detail-name {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.text-light {
+  color: #94c492;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#resume-button-2 {
+  display: inline-block;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #555;
+}
+
+.btn-primary {
+  background-color: #ff4500;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  padding: 1rem;
+  /* transition: all 0.3s ease; */
+}
+
+.footer__social a {
+  display: inline-block;
+  color: #333;
+  margin: 0 10px;
+  font-size: 35px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(255, 252, 252, 0.2);
+  padding: 1rem;
+}
+.footer__social a:hover {
+  border: 3px solid greenyellow;
+}
+.me {
+  margin-top: 20px;
+}
+
+.me img {
+  width: 300px;
+  height: 300px;
+}
+/* media queries */
+@media screen and (max-width: 768px) {
+  #home {
+    height: auto;
+    padding: 1rem;
+  }
+  .header__container {
+    margin-top: 3rem;
+  }
+  #user-detail-name {
+    font-size: 36px;
+  }
+  .text-light {
+    font-size: 18px;
+  }
+  #resume-button-2,
+  .btn {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+  .footer__social a {
+    font-size: 24px;
+  }
+  .me img {
+    width: 200px;
+    height: 200px;
+  }
+}

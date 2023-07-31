@@ -1,0 +1,146 @@
+#skills {
+  background-color: rgb(31, 31, 56);
+  padding: 50px 0;
+  text-align: center;
+}
+
+#skills h5 {
+  color: #dad4d4;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 1rem;
+}
+
+#skills h2 {
+  color: #41e873;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 1rem;
+  /* border: 1px solid red; */
+  margin: auto;
+  padding: 5rem;
+  
+}
+.experience__container > div {
+  background: rgb(61, 61, 102);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 5px solid transparent;
+}
+.experience__container > div:hover {
+  background: transparent;
+  border-color: rgba(130, 66, 66, 0.4);
+  cursor: default;
+}
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #41e873;
+  font-size: 30px;
+}
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  /* border: 1px solid red; */
+}
+.skills-card {
+  display: flex;
+  gap: 1rem;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.skills-card-img {
+  margin-top: 6px;
+  font-size: 40px;
+  color: #41e873;
+}
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  #skills {
+    padding: 30px 0;
+  }
+
+  #skills h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  #skills h5{
+    margin-top: 2rem;
+  }
+  .experience__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .experience__container > div {
+    padding: 2rem;
+  }
+
+  .skills-card {
+    flex-direction: column;
+    font-size: 24px;
+  }
+
+  .skills-card-img {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media screen and (max-width: 479px) {
+  #skills h2 {
+    font-size: 22px;
+  }
+
+  .experience__container > div {
+    padding: 1.5rem;
+  }
+
+  .skills-card {
+    font-size: 20px;
+  }
+
+  .skills-card-img {
+    margin-top: 16px;
+    font-size: 24px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1024px) {
+  #skills h2 {
+    font-size: 22px;
+  }
+  .experience__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .experience__container > div {
+    padding: 1.5rem;
+    width: 80%;
+    margin: auto;
+  }
+
+  .skills-card {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-card-img {
+    margin-top: 16px;
+    font-size: 40px;
+  }
+}
